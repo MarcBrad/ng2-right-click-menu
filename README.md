@@ -108,6 +108,8 @@ Name | Type | Default | Description
 [shAttachMenu]|ShContextMenuComponent|null|the menu that will be attached to the element
 [shMenuTriggers]|string[]|null|list of event names that will trigger the menu
 [shMenuData]|any|null|the data object that will be injected to the menu item's template
+(open)|(event: ContextOpenEvent) => void|null|open handler
+[preventOpen]|boolean|false|should the menu be prevented from opening inside OpenMenu event.
 
 ### Setting up development env
 
